@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url(./photos/bolt.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 70px;
+    background-attachment: fixed;
+}
+
+.titulo-principal{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.bowie1{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.introducao-t{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.texto-intro{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto-intro::first-letter{
+    font-size: 30px;
+}
+
+.texto-img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.smoking{
+    float: left;
+    margin-right: 20px;
+}
+
+hr{
+    margin-top: 75px;
+}
